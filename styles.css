@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#tweetInput {
+    width: 80%;
+    height: 100px;
+    margin: 20px auto;
+    display: block;
+    padding: 10px;
+    font-size: 1.2em;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+}
+
+
+h1 {
+    font-size: 2.5em;
+    color: #000000;
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+}
+
+
+
+#postTweet {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.tweet {
+    width: 80%;
+    margin: 10px auto;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    font-size: 1.1em;
+}
+
+
+.tweet-actions {
+    margin-top: 10px;
+    text-align: right;
+}
+
+.like {
+    color: #e0245e;
+    cursor: pointer;
+    margin-right: 15px;
+}
+
+.delete {
+    color: #ff0000;
+    cursor: pointer;
+}
+ 
+
+
+
+
+
